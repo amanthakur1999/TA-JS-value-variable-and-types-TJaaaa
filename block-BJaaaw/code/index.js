@@ -17,21 +17,21 @@ else{
 }
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
-// let num1=prompt(`add first number`);
-// let num2=prompt(`add second number`);
-// if (num1>num2){
-//   alert(`your max value ${num1}`);
-// } else{
-//   alert(`your max value ${num2}`)
-// }
+let num1=prompt(`add first number`);
+let num2=prompt(`add second number`);
+if (num1>num2){
+  alert(`your max value ${num1}`);
+} else{
+  alert(`your max value ${num2}`)
+}
 
 // 3. Convert the above code using`?` terniary operator
 
-// let num1=prompt(`add first number`);
-// let num2=prompt(`add second number`);
-// (num1>num2) ? alert(`your max value ${num1}`)
-// :
-// alert(`your max value ${num2}`)
+let num1=prompt(`add first number`);
+let num2=prompt(`add second number`);
+(num1>num2) ? alert(`your max value ${num1}`)
+:
+alert(`your max value ${num2}`)
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
@@ -41,18 +41,18 @@ else{
   - `else` print the message " All men must die"
 */
 
-// let houseName=prompt(`Enter your house name `)
+let houseName=prompt(`Enter your house name `)
  
-// if (houseName == `stark`){
-//   alert(`winter is coming`);
-// }
-// else if(houseName == `lannister`){
-//   alert(`A lannister always pays his debt`);
+if (houseName == `stark`){
+  alert(`winter is coming`);
+}
+else if(houseName == `lannister`){
+  alert(`A lannister always pays his debt`);
 
-// }
-// else{
-//   alert(`All men must die`)
-// }
+}
+else{
+  alert(`All men must die`)
+}
 
 
 
